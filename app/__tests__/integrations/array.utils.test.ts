@@ -12,4 +12,14 @@ describe('test `ConcatArray` functionality', function() {
     expect(ConcattedArray).toStrictEqual([4, 2]);
   });
 
+  it('return [6,6,6]', function() {
+
+    const ConcattedArray = ConcatArray(
+      [6],
+      [66]
+    );
+
+    expect(ConcattedArray).toStrictEqual([6, 6, 6]);
+  })
+
 });
