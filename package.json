@@ -1,0 +1,34 @@
+{
+  "name": "actions-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "start": "node ./build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keenyy1997/actions-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Keenyy1997/actions-test/issues"
+  },
+  "homepage": "https://github.com/Keenyy1997/actions-test#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-typescript": "^7.10.4",
+    "babel-jest": "^26.3.0",
+    "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "@types/jest": "^26.0.13",
+    "@types/node": "^14.10.1",
+    "typescript": "^4.0.2"
+  }
+}
